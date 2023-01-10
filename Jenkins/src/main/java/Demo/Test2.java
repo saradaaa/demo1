@@ -1,12 +1,16 @@
 package Demo;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
 
 public class Test2 
+
 {
 	@Test
-public static void main(String[] args)
-{
-System.out.println("hiiiii");	
-}
+	public void tc2() 
+	{
+	 Reporter.log("welcome,true");	
+	}
 }
